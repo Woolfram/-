@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Full-screen Sections */
+.full-screen {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000; /* Black background for a dramatic effect */
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+#home {
+    background: url('https://i.pinimg.com/originals/70/72/c0/7072c003a01ab656c982542e9c38c475.jpg') no-repeat center center/cover;
+}
+
+#features, #products, #contact {
+    background: #222; /* Dark background */
+}
+
+/* Content within Sections */
+.content h1, .content h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.content p, .content ul {
+    font-size: 1.2rem;
+}
+
+/* Navigation Styles */
+nav {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    text-align: center;
+    z-index: 1000;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #00f2ff; /* Bright blue for hover effect */
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Add smooth transitions */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Button Hover Effect */
+button:hover {
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
