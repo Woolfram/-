@@ -1,56 +1,62 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Умный дом</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="ind.css"> <!-- Используем общий файл стилей -->
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="index.html">Главная</a></li>
-            <li><a href="page1.html">Преимущества</a></li>
-            <li><a href="page2.html">Устройства</a></li>
-            <li><a href="register.html">Регистрация</a></li>
-            <li><a href="feedback.html">Обратная связь</a></li>
-            <li><a href="store.html">Магазин</a></li>
+    <header>
+        <div class="container">
+            <h1>Умный дом</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="active">Главная</a></li>
+                    <li><a href="page2.html">О системе</a></li>
+                    <li><a href="contact.html">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-        </ul>
-    </nav>
-    
-    <h1>Добро пожаловать в мир Умного Дома!</h1>
-    <p class="highlight">Узнайте, как технологии могут сделать вашу жизнь более удобной и безопасной.</p>
-    
-    <h2>Типы устройств умного дома:</h2>
-    <ul>
-        <li><strong>Смарт-освещение</strong> - управление освещением через смартфон.</li>
-        <li><strong>Умные термостаты</strong> - автоматизация температурного режима.</li>
-        <li><strong>Системы безопасности</strong> - защита вашего дома с помощью камер и датчиков.</li>
-        <li><strong>Умные колонки</strong> - управление устройствами с помощью голосовых команд.</li>
-    </ul>
+    <main>
+        <section class="intro">
+            <div class="container">
+                <h2>Что такое умный дом?</h2>
+                <p>
+                    Умный дом — это система автоматизации, которая позволяет управлять вашим домом через смартфон или голосовые команды.
+                    Она включает управление освещением, климатом, безопасностью, бытовой техникой и другими функциями.
+                </p>
+            </div>
+        </section>
 
-    <h2>Преимущества:</h2>
-    <p>Умный дом предлагает множество <strong>плюсов</strong>, таких как:</p>
-    <ul>
-        <li>Удобство управления.</li>
-        <li>Экономия энергии.</li>
-        <li>Повышенная безопасность.</li>
-        <li>Автоматизация рутинных задач.</li>
-    </ul>
+        <section class="benefits">
+            <div class="container">
+                <h2>Преимущества умного дома</h2>
+                <ul>
+                    <li><strong>Удобство:</strong> Управляйте всеми устройствами из одного приложения.</li>
+                    <li><strong>Безопасность:</strong> Системы видеонаблюдения и датчики безопасности.</li>
+                    <li><strong>Экономия:</strong> Энергоэффективность за счет оптимизации использования ресурсов.</li>
+                </ul>
+            </div>
+        </section>
 
-  
+        <section class="how-it-works">
+            <div class="container">
+                <h2>Как это работает?</h2>
+                <p>
+                    Система соединяет устройства через интернет. Вы можете настроить сценарии, такие как автоматическое выключение света
+                    или включение обогревателя перед вашим приходом домой.
+                </p>
+            </div>
+        </section>
+    </main>
 
-
-  
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Smartify. Все права защищены.</p>
+        </div>
+    </footer>
 </body>
-<footer>
-    <div class="social-buttons">
-        <a href="https://www.facebook.com" target="_blank" class="social-button facebook">Facebook</a>
-        <a href="https://www.twitter.com" target="_blank" class="social-button twitter">Twitter</a>
-        <a href="https://www.instagram.com" target="_blank" class="social-button instagram">Instagram</a>
-    </div>
-</footer>
-
 </html>
