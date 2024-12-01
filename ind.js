@@ -1,13 +1,20 @@
-// Пример плавной прокрутки при переходе по ссылкам
+/// Плавная прокрутка для якорных ссылок
 document.querySelectorAll('a').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
-        e.preventDefault();
+        const href = this.getAttribute('href');
+        
+        // Проверяем, что ссылка ведет на якорь внутри текущей страницы
+        if (href.startsWith('#')) {
+            e.preventDefault();
 
-        const target = document.querySelector(this.getAttribute('href'));
-        window.scrollTo({
-            top: target.offsetTop - 100, // Чтобы шапка не перекрывала контент
-            behavior: 'smooth'
-        });
+            const target = document.querySelector(href);
+            if (target) {
+                window.scrollTo({
+                    top: target.offsetTop - 100, // Для корректного отображения
+                    behavior: 'smooth'
+                });
+            }
+        }
     });
 });
 
