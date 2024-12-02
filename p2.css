@@ -10,7 +10,12 @@ body {
     line-height: 1.6;
     background-color: #f4f4f4;
 }
-
+img {
+    width: 200px; /* Установите желаемую ширину */
+    height: 200px; /* Установите желаемую высоту */
+    object-fit: cover; /* Для сохранения пропорций и заполнения заданной области */
+    border-radius: 10px; /* Дополнительно: закругленные углы */
+}
 /* Навигация */
 nav {
     background-color: rgba(0, 0, 0, 0.7);
