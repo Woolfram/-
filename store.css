@@ -1,7 +1,7 @@
 /* Основной стиль страницы */
 body {
     font-family: 'Roboto', sans-serif;
-    background: #d1d5db; /* Светлый фон, как у Ozon */
+    background: #b6d0f6; /* Светлый фон, как у Ozon */
     color: #333;
     margin: 0;
     padding: 0;
@@ -18,7 +18,7 @@ h1, h2, h3 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: white;
+    background: rgb(213, 239, 247);
     padding: 15px 30px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -253,7 +253,7 @@ form {
     max-width: 400px;
     margin: 40px auto;
     padding: 20px;
-    background: white;
+    background: rgb(178, 235, 228);
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -271,7 +271,7 @@ form input[type="tel"],
 form input[type="password"] {
     width: 100%;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #01314f;
     border-radius: 5px;
     margin-bottom: 15px;
     font-size: 0.9em;
@@ -279,7 +279,7 @@ form input[type="password"] {
 
 form input[type="submit"] {
     background: #0066cc;
-    color: white;
+    color: rgb(40, 163, 163);
     border: none;
     padding: 10px 15px;
     border-radius: 5px;
@@ -294,7 +294,7 @@ form input[type="submit"]:hover {
 
 /* Футер */
 footer {
-    background: #f5f7fa;
+    background: #c2d4ef;
     color: #666;
     text-align: center;
     padding: 20px;
