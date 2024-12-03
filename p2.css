@@ -11,10 +11,10 @@ body {
     background-color: #f4f4f4;
 }
 img {
-    width: 200px; /* Установите желаемую ширину */
-    height: 200px; /* Установите желаемую высоту */
-    object-fit: cover; /* Для сохранения пропорций и заполнения заданной области */
-    border-radius: 10px; /* Дополнительно: закругленные углы */
+    width: 200px; 
+    height: 200px; 
+    object-fit: cover; 
+    border-radius: 10px; 
 }
 /* Навигация */
 nav {
@@ -44,7 +44,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #00f2ff; /* Акцентный цвет */
+    color: #00f2ff;
 }
 
 /* Главная секция с фоновым изображением */

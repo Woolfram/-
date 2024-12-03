@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
         });
     }
 });
-// Example of adding smooth scrolling or animations using JavaScript
+
 document.addEventListener("DOMContentLoaded", () => {
     const sections = document.querySelectorAll('.full-screen');
     

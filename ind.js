@@ -1,4 +1,4 @@
-/// Плавная прокрутка для якорных ссылок
+
 document.querySelectorAll('a').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
         const href = this.getAttribute('href');
