@@ -137,3 +137,16 @@ footer a {
         padding: 20px;
     }
 }
+.cta-button {
+    padding: 15px 30px;
+    background-color: #00f2ff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #0066cc;
+}
